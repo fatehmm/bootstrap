@@ -1,0 +1,50 @@
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+body .navbar {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.navbar .container-fluid a {
+font-size: 1.5rem;
+color: white !important;
+}
+main {
+    height: 280vh;
+}
+main .row.d-flex  {
+    background-color: rgb(88, 185, 158);
+    height: 70vh !important;
+}
+main .row h3 {
+    font-size: 48px !important;
+    height: 50px;
+}
+.container img {
+    border-radius: 10px;
+}
+main .about h3 {
+    justify-content: center;
+
+}
+main .about{
+    height: 50vh;
+    background-color: rgb(88, 185, 158);
+}
+main footer {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 266px;
+}
+@media  screen and (max-width: 1092px) {
+ .navbar .container-fluid a{
+    font-size: 2rem;
+}
+
+}
+@media  screen and (max-width: 940px) {
+    main .row img {
+        width: 70% !important;
+        height: auto;
+    } 
+}
